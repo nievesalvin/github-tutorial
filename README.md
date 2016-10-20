@@ -9,7 +9,11 @@ _by Alvin Nieves_
  itself, while Github is a website where a programmer can send code to the cloud  
  so that the code itself lives elsewhere instead of locally. Github is also at the enter  
  of social coding, where a pethora of programmers can use eachothers' code as a  
- starting point to start their own project.
+ starting point to start their own project.  
+ 
+ In order to work Github needs git, where as Git does not need GitHub to work  
+ hence why "Git" can be found in the word "GitHub" and why "Github" is  
+ not found in "Git"
 
 
 ---
