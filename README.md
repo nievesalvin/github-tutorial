@@ -18,6 +18,17 @@ _by Alvin Nieves_
 
 ---
 ## Initial Setup
+When using Git, a programmer uses `git push` to move their code from 
+a local directory to a remote repository. In order to do this, a 
+programmer has to have a Github account.  
+
+To set up a github account:
+* Go to [Github](www.github.com)
+* Click "Sign Up" and after filling out ones information click "Create Account"  
+![image](start-github.png)
+ 
+
+
 
 
 
@@ -28,3 +39,10 @@ _by Alvin Nieves_
 
 ---
 ## Workflow & Commands
+When using Git one must know all of the commands and what those 
+commands tell the computer to do. Every command does
+something different, and there is almost always a way to reverse what one did.  
+
+##### Git Commands:
+`git init`: This command, tells the computer that the programmer 
+is ready to sta
