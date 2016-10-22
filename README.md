@@ -125,4 +125,7 @@ Date:   Fri Oct 21 16:02:30 2016 +0000
 * _cd -directoryname-_: cd is short for change directory and essentially it is used to 
 transfer a programmer from one folder to the next.  
 ![](cd-img.png)  
-* _touch -filename-_:
+* _touch -filename-_: touch allows the programmer to create a new file   
+![](touch-img.png)
+* _mkdir_: used to make a new directory  
+![](mkdir-img.png)
