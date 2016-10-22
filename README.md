@@ -59,12 +59,12 @@ commands tell the computer to do. Every command does
 something different, and there is almost always a way to reverse what one did.  
 
 ##### Git Commands:
-1. `git init`: creates a new repository and begins to track changes and modifications in files and folders.   
+1.`git init`: creates a new repository and begins to track changes and modifications in files and folders.   
 ```bash
 nievesalvin:~/workspace/practice $ git init
 Initialized empty Git repository in /home/ubuntu/workspace/practice/.git/
 ```
-2. `git status`: allows programmer to see what files have been modified since the last commit.  
+2.`git status`: allows programmer to see what files have been modified since the last commit.  
 ```bash
 nievesalvin:~/workspace/github-tutorial (master) $ git status
 On branch master
@@ -76,7 +76,7 @@ Changes to be committed:
         modified:   directions.md
         new file:   git-log-img.png
 ```
-3. `git commit <filename> -m "message"`:this is used in order to keep a record of the changes that a programmer has made to a file. When one uses
+3.`git commit <filename> -m "message"`:this is used in order to keep a record of the changes that a programmer has made to a file. When one uses
 git commit, it takes a "snapshot" and it sets a digital checkpoint, where 
 it shows, when your code last worked.  
 ```bash
@@ -85,12 +85,12 @@ nievesalvin:~/workspace/github-tutorial (master) $ git commit -m "add image to g
  3 files changed, 21 insertions(+), 6 deletions(-)
  create mode 100644 git-log-img.png
 ```  
-4. `git add`: adds files to the "stage" so that the programmer can use `git init` in order to record changes. One 
+4.`git add`: adds files to the "stage" so that the programmer can use `git init` in order to record changes. One 
 can not commit before adding the files to the "stage."  
 ```bash
 nievesalvin:~/workspace/github-tutorial (master) $ git add .
 ```
-5. `git push`: is used to send commits from the local directory to a remote 
+5.`git push`: is used to send commits from the local directory to a remote 
 repository that lives on the cloud.  
 ```bash
 nievesalvin:~/workspace/github-tutorial (master) $ git push
@@ -104,9 +104,9 @@ remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
 To github.com:nievesalvin/github-tutorial.git
    b0663d4..8329a3c  master -> master
 ```  
-6. `git clone`: is used by programmers to copy files from a remote repository
+6.`git clone`: is used by programmers to copy files from a remote repository
 to a local one.  
-7. `git diff`: is used so that a programmer can see what specific lines of 
+7.`git diff`: is used so that a programmer can see what specific lines of 
 code have been changed in a file.
 ```bash
 nievesalvin:~/workspace/github-tutorial (master) $ git diff
@@ -123,7 +123,7 @@ index 7d064c2..2a1d90e 100644
  ![](git-log-img.png)
 \ No newline at end of file
 ```  
-8. `git log`: is used to see the number commits, author, message, and time 
+8.`git log`: is used to see the number commits, author, message, and time 
 stamp. In order to get out of git log one must simply press 'q'  
 ```bash
 nievesalvin:~/workspace/github-tutorial (master) $ git log
