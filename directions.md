@@ -16,7 +16,7 @@
 
 * git vs github overview
   * explain what each is, and the difference between the two
-  * [10%]
+  * [10%] -DONE
 * one-time setup
   * making a github account, SSH key
   * [15%]
