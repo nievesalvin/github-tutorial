@@ -26,8 +26,22 @@ To set up a github account:
 * Go to [Github](www.github.com)
 * Click "Sign Up" and after filling out ones information click "Create Account"  
 ![](start-github.png)  
+  
+After making a Github account and a repository a programmer can 'push'
+their code to the cloud and have it saved in more than just a local
+directory.  
+When making a github account it is important to set it 
+up with SSH(Secure Socket Shell) so that one does not 
+have to constantly insert their password.  
+_To do this_:  
+* Go to "my profile"  
+![](yourprofile-img.png)  
+* Click "Repositories"  
+![](repositories-img.png)  
+* Click on a project and click clone and make
+sure it says SSH Key.  
+![](SSH-img.png)
 
-After making a Github account and a repository 
 
 
 
