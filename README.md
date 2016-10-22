@@ -128,4 +128,8 @@ transfer a programmer from one folder to the next.
 * _touch -filename-_: touch allows the programmer to create a new file   
 ![](touch-img.png)
 * _mkdir_: used to make a new directory  
-![](mkdir-img.png)
+![](mkdir-img.png)  
+* _rm_: can be used by itself, as `rm -rf`, or `rmdir` in order to delete
+files or directories with or without force.  
+![](rm-img.png)  
+![](rmrf-img.png)
