@@ -204,7 +204,7 @@ programmer must go to their [github](www.github.com) account.
 ![](yourprofile-img.png)  
 * Click "repositories"  
 ![](repositories-img.png)  
-*Click on the repository you would like to select.  
+* Click on the repository you would like to select.  
 * Click on "Settings"  
 ![](reposetting.png)  
 * Scroll down until you see "Danger zone and 
