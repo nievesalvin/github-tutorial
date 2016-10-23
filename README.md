@@ -185,4 +185,15 @@ _Breakdown_:
 `-rf`: stands for 'repeat' with 'force' hence the 
 'rf'  
 `.git`: stands for the file that is created when
-git init is entered.
+git init is entered.  
+
+A programmer can also remove a repository in both
+a remote or local location. And it does not matter
+which you remove first.  
+_Removing a local directory_:  
+* The first way of removing a local directory is 
+to do.  
+![](rmdir-img.png)  
+*The second way of removing a local directory is 
+to do.   
+![](rmdirectoriesrf.png)
