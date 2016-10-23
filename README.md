@@ -34,7 +34,7 @@ When making a github account it is important to set it
 up with SSH(Secure Socket Shell) so that one does not 
 have to constantly insert their password.  
 _To do this_:  
-* Go to "my profile"  
+* Go to "Your profile"  
 ![](yourprofile-img.png)  
 * Click "Repositories"  
 ![](repositories-img.png)  
