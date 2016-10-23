@@ -209,5 +209,42 @@ programmer must go to their [github](www.github.com) account.
 ![](reposetting.png)  
 * Scroll down until you see "Danger zone and 
 * click Delete Repository"  
-![](deleterepo.png)
+![](deleterepo.png)  
+
+## Collaboration  
+Github is at the core of social coding and it does
+by allowing individuals to use others repositories
+as their own starting places in order to create 
+their own version or their own project. In order 
+to do this, a programmer has to 'fork' a persons 
+project and then 'clone' it. The concept of 
+forking, is to take someones remote repository
+and making a copy that can be edited by the 
+new programmer. The concept of Cloning is taking
+code from the repository that you forked and 
+copying it into the local directory so that 
+changes can be applied and 'pushed.'  
+
+_**Forking**_:  
+* Find someone elses repository that you would 
+like to use as your starting point, on Github.  
+* Once you have found a repo, clicl on it and 
+press "fork"  
+![](fork-img.png)  
+* After you fork it, Github automatically makes
+a repository under your account.   
+
+_**Cloning**_:
+* Press "Clone or download"  
+![](clonedownload-img.png)  
+* Once you have done this you should see this:  
+![](clonelink.png)  
+after press the keyboard and return to c9.  
+* Return to the bash terminal and type  
+`git clone -url-`  
+* It should look like this:  
+![](gitclonelink.png)  
+
+**Congratulations you have forked and cloned a 
+repository!**
 
