@@ -23,7 +23,7 @@ a local directory to a remote repository. In order to do this, a
 programmer has to have a Github account.  
 
 To set up a github account:
-* Go to [Github](www.github.com)
+* Go to [_Github_](www.github.com)
 * Click "Sign Up" and after filling out ones information click "Create Account"  
 ![](start-github.png)  
   
@@ -36,16 +36,11 @@ have to constantly insert their password.
 _To do this_:  
 * Go to "Your profile"  
 ![](yourprofile-img.png)  
-* Click "Repositories"  
-![](repositories-img.png)  
-* Click on a project and click clone and make
-sure it says SSH Key.  
-![](SSH-img.png)
-
-
-
-
-
+* Click "Settings" and then "SSH and GPG Keys"  
+![](settings-img.png)  
+* Then copy the SSH Code and paste it to your
+c9 account at the SSH tab, on the gear icon 
+on the top-right of the window.
 
 ---
 ## Repository Setup
@@ -65,13 +60,19 @@ In order to set up a repository on
 * Type in the name of the repository 
 you want to make and press "create"  
 ![](create-img.png)  
-* Copy and paste the code from
+* Make sure SSH is selected and Copy and paste the code from
 **"or push an existing repository from
 the command line."**  
 ![](pushrepo-img.png)  
 it should look a like this:  
 ![](pushrepocode.png)  
-**Your repo is now set up!**
+**Your repo is now set up!**  
+When using a repository, a programmer must
+remember to git init, in order to create  a 
+link between the remote repository and the local
+directory. After git has been initalized one 
+should constantly 'add' and 'commit.'  
+
 
 
 

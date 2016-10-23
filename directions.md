@@ -22,10 +22,10 @@
   * [15%] -DONE
 * repo setup
   * `init`, your first `add` & `commit`, new repo on github, remote
-  * [20%]
+  * [20%] -DONE
 * ongoing workflow & commands
   * status, add, commit, push
-  * [40%]
+  * [40%] -DONE
 
 _NOTE: for each command, you should explain:_
 
