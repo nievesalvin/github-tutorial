@@ -19,7 +19,7 @@
   * [10%] -DONE
 * one-time setup
   * making a github account, SSH key
-  * [15%]
+  * [15%] -DONE
 * repo setup
   * `init`, your first `add` & `commit`, new repo on github, remote
   * [20%]

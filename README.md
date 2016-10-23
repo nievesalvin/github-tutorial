@@ -49,6 +49,29 @@ sure it says SSH Key.
 
 ---
 ## Repository Setup
+As a programmer, in order to be able to push ones code
+to a remote repository instead of 
+the code living on a single local 
+directory. To be able to 'push' code
+a 'repo' must be set up on GitHub.  
+In order to set up a repository on 
+
+* Go to "Your profile"  
+![](yourprofile-img.png)  
+* Click "Repositories"  
+![](repositories-img.png)  
+* Click "New"  
+![](new-img.png)  
+* Type in the name of the repository 
+you want to make and press "create"  
+![](create-img.png)  
+* Copy and paste the code from
+**"or push an existing repository from
+the command line."**  
+![](pushrepo-img.png)  
+it should look a like this:  
+![](pushrepocode.png)  
+**Your repo is now set up!**
 
 
 
