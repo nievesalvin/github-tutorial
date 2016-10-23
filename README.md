@@ -157,6 +157,9 @@ Date:   Fri Oct 21 16:02:30 2016 +0000
 
     add image
 ```  
+9._`git pull`_: is used to pull commands down 
+from a repository when you have accepted someone 
+elses pull request.
 ##### Command Line Commands
 * _ls_: is short for list, and list all of the files in a directory  
 ![](ls-img.png)
@@ -246,5 +249,21 @@ after press the keyboard and return to c9.
 ![](gitclonelink.png)  
 
 **Congratulations you have forked and cloned a 
-repository!**
+repository!**  
+
+_**Pull Request**_:  
+Pull request, is basically asking a programmer 
+permission to change the code on the repository
+in which you copied the code from. Permission can 
+either be granted or denied.  
+* The way to do this is to go to the repository that
+you forked and click on the "Pull request" button:  
+![](pullrequest.png)  
+* After this you will need to wait to have it 
+approved or denied.  
+* If your request is accepted, the original 
+* programmer will then use `git pull` to copy the 
+changes that have been made to their remote 
+repository. 
+
 
