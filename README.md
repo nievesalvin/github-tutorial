@@ -196,4 +196,18 @@ to do.
 ![](rmdir-img.png)  
 *The second way of removing a local directory is 
 to do.   
-![](rmdirectoriesrf.png)
+![](rmdirectoriesrf.png)  
+
+In order to remove a remote repository, the 
+programmer must go to their [github](www.github.com) account.   
+* Click "Your profile"  
+![](yourprofile-img.png)  
+* Click "repositories"  
+![](repositories-img.png)  
+*Click on the repository you would like to select.  
+* Click on "Settings"  
+![](reposetting.png)  
+* Scroll down until you see "Danger zone and 
+* click Delete Repository"  
+![](deleterepo.png)
+
