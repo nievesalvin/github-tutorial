@@ -111,10 +111,18 @@ nievesalvin:~/workspace/github-tutorial (master) $ git commit -m "add image to g
  3 files changed, 21 insertions(+), 6 deletions(-)
  create mode 100644 git-log-img.png
 ```  
-4._`git add`_: adds files to the "stage" so that the programmer can use `git init` in order to record changes. One 
-can not commit before adding the files to the "stage."  
+4._`git add`_: adds files to the "stage" so that the programmer can use `git commit` in order to record changes. One 
+can not commit before adding the files to the "stage."
+One can add in two different ways. The first 
+involves using a '.' which simply means to add all files 
+to the 'stage,' and the other way to include the file name
+after `git add`.
 ```bash
 nievesalvin:~/workspace/github-tutorial (master) $ git add .
+``` 
+_Or_
+```bash
+nievesalvin:~/workspace/github-tutorial (master) $ git add -filename-
 ```
 5._`git push`_: is used to send commits from the local directory to a remote 
 repository that lives on the cloud.  
@@ -231,7 +239,7 @@ code from the repository that you forked and
 copying it into the local directory so that 
 changes can be applied and 'pushed.'  
 
-_**Forking**_:  
+#### _**Forking**_:  
 * Find someone elses repository that you would 
 like to use as your starting point, on Github.  
 * Once you have found a repo, clicl on it and 
@@ -240,7 +248,7 @@ press "fork"
 * After you fork it, Github automatically makes
 a repository under your account.   
 
-_**Cloning**_:
+#### _**Cloning**_:
 * Press "Clone or download"  
 ![](clonedownload-img.png)  
 * Once you have done this you should see this:  
@@ -254,7 +262,7 @@ after press the keyboard and return to c9.
 **Congratulations you have forked and cloned a 
 repository!**  
 
-_**Pull Request**_:  
+#### _**Pull Request**_:  
 Pull request, is basically asking a programmer 
 permission to change the code on the repository
 in which you copied the code from. Permission can 
