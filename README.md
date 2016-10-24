@@ -140,6 +140,9 @@ To github.com:nievesalvin/github-tutorial.git
 ```  
 6._`git clone`_: is used by programmers to copy files from a remote repository
 to a local one.  
+```bash
+nievesalvin:~/workspace/ $ git clone -repositoryurl-
+```
 7._`git diff`_: is used so that a programmer can see what specific lines of 
 code have been changed in a file.
 ```bash
