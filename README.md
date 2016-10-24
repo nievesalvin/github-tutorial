@@ -173,7 +173,7 @@ Date:   Fri Oct 21 16:02:30 2016 +0000
 9._`git pull`_: is used to pull commands down 
 from a repository when you have accepted someone 
 elses pull request.
-##### Command Line Commands
+#### Command Line Commands
 * _ls_: is short for list, and list all of the files in a directory  
 ![](ls-img.png)
 * _cd -directoryname-_: cd is short for change directory and essentially it is used to 
@@ -181,7 +181,7 @@ transfer a programmer from one folder to the next.
 ![](cd-img.png)  
 * _touch -filename-_: touch allows the programmer to create a new file   
 ![](touch-img.png)
-* _mkdir_: used to make a new directory  
+* _mkdir -directoryname_: used to make a new directory  
 ![](mkdir-img.png)  
 * _rm_: can be used by itself, as `rm -rf`, or `rmdir` in order to delete
 files or directories with or without force.  
