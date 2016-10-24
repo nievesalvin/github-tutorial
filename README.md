@@ -6,15 +6,15 @@ _by Alvin Nieves_
 ## Git vs. GitHub
  Git is a version control software that takes "snapshots" of a programmers code  
  and keeps track of changes and modifications that have been made to the project   
- itself, while Github is a website where a programmer can send code to the cloud  
- so that the code itself lives elsewhere instead of locally. Github is also at the enter  
- of social coding, where a pethora of programmers can use eachothers' code as a  
- starting point to start their own project.  
+ itself, while Github is a website where a programmer can send code to the cloud;  
+ so that the code itself 'lives' elsewhere in addition to 'living' locally.   
+ Github is also at the enter of social coding, where a pethora of programmers can use   
+ eachothers' code  to brank off and use others code as a starting point to start their  
+ own project.  
  
  In order to work Github needs git, where as Git does not need GitHub to work  
  hence why "Git" can be found in the word "GitHub" and why "Github" is  
  not found in "Git."
-
 
 ---
 ## Initial Setup
@@ -34,9 +34,9 @@ When making a github account it is important to set it
 up with SSH(Secure Socket Shell) so that one does not 
 have to constantly insert their password.  
 _To do this_:  
-* Go to "Your profile"  
+* Go to "_Your profile_"  
 ![](yourprofile-img.png)  
-* Click "Settings" and then "SSH and GPG Keys"  
+* Click "_Settings_" and then "_SSH and GPG Keys_"  
 ![](settings-img.png)  
 * Then copy the SSH Code and paste it to your
 c9 account at the SSH tab, on the gear icon 
@@ -51,14 +51,14 @@ directory. To be able to 'push' code
 a 'repo' must be set up on GitHub.  
 In order to set up a repository on 
 
-* Go to "Your profile"  
+* Go to "_Your profile_"  
 ![](yourprofile-img.png)  
-* Click "Repositories"  
+* Click "_Repositories_"  
 ![](repositories-img.png)  
-* Click "New"  
+* Click "_New_"  
 ![](new-img.png)  
 * Type in the name of the repository 
-you want to make and press "create"  
+you want to make and press "_create_"  
 ![](create-img.png)  
 * Make sure SSH is selected and Copy and paste the code from
 **"or push an existing repository from
@@ -71,7 +71,9 @@ When using a repository, a programmer must
 remember to git init, in order to create  a 
 link between the remote repository and the local
 directory. After git has been initalized one 
-should constantly 'add' and 'commit.'  
+should constantly `add`,`commit`, and `push` in order
+to constantly update your remote repository as well as your
+local directory.
 
 
 
@@ -201,8 +203,9 @@ to do.
 to do.   
 ![](rmdirectoriesrf.png)  
 
-In order to remove a remote repository, the 
-programmer must go to their [github](www.github.com) account.   
+**In order to remove a remote repository, the 
+programmer must go to their [github](www.github.com) account.**  
+  
 * Click "Your profile"  
 ![](yourprofile-img.png)  
 * Click "repositories"  
@@ -265,5 +268,3 @@ approved or denied.
 * programmer will then use `git pull` to copy the 
 changes that have been made to their remote 
 repository. 
-
-
