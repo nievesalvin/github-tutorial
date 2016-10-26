@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>GitHub-tutorial by nievesalvin</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+  </head>
+  <body>
+    <section class="page-header">
+      <h1 class="project-name">GitHub-tutorial</h1>
+      <h2 class="project-tagline">Git it!</h2>
+      <a href="https://github.com/nievesalvin/github-tutorial" class="btn">View on GitHub</a>
+      <a href="https://github.com/nievesalvin/github-tutorial/zipball/master" class="btn">Download .zip</a>
+      <a href="https://github.com/nievesalvin/github-tutorial/tarball/master" class="btn">Download .tar.gz</a>
+    </section>
+
+    <section class="main-content">
+      <h1>
+<a id="github-tutorial" class="anchor" href="#github-tutorial" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>GitHub Tutorial</h1>
+
+<p><em>by Alvin Nieves</em></p>
+
+<hr>
+
+<h2>
+<a id="git-vs-github" class="anchor" href="#git-vs-github" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Git vs. GitHub</h2>
+
+<p>Git is a version control software that takes "snapshots" of a programmers code<br>
+ and keeps track of changes and modifications that have been made to the project<br>
+ itself, while Github is a website where a programmer can send code to the cloud;<br>
+ so that the code itself 'lives' elsewhere in addition to 'living' locally.<br>
+ Github is also at the enter of social coding, where a pethora of programmers can use<br>
+ eachothers' code  to brank off and use others code as a starting point to start their<br>
+ own project.  </p>
+
+<p>In order to work Github needs git, where as Git does not need GitHub to work<br>
+ hence why "Git" can be found in the word "GitHub" and why "Github" is<br>
+ not found in "Git."</p>
+
+<hr>
+
+<h2>
+<a id="initial-setup" class="anchor" href="#initial-setup" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Initial Setup</h2>
+
+<p>When using Git, a programmer uses <code>git push</code> to move their code from 
+a local directory to a remote repository. In order to do this, a 
+programmer has to have a Github account.  </p>
+
+<p>To set up a github account:</p>
+
+<ul>
+<li>Go to <a href="www.github.com"><em>Github</em></a>
+</li>
+<li>Click "Sign Up" and after filling out ones information click "Create Account"<br>
+<img src="start-github.png" alt=""><br>
+</li>
+</ul>
+
+<p>After making a Github account and a repository a programmer can 'push'
+their code to the cloud and have it saved in more than just a local
+directory.<br>
+When making a github account it is important to set it 
+up with SSH(Secure Socket Shell) so that one does not 
+have to constantly insert their password.<br>
+<em>To do this</em>:  </p>
+
+<ul>
+<li>Go to "<em>Your profile</em>"<br>
+<img src="yourprofile-img.png" alt=""><br>
+</li>
+<li>Click "<em>Settings</em>" and then "<em>SSH and GPG Keys</em>"<br>
+<img src="settings-img.png" alt=""><br>
+</li>
+<li>Then copy the SSH Code and paste it to your
+c9 account at the SSH tab, on the gear icon 
+on the top-right of the window.</li>
+</ul>
+
+<hr>
+
+<h2>
+<a id="repository-setup" class="anchor" href="#repository-setup" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Repository Setup</h2>
+
+<p>As a programmer, in order to be able to push ones code
+to a remote repository instead of 
+the code living on a single local 
+directory. To be able to 'push' code
+a 'repo' must be set up on GitHub.<br>
+In order to set up a repository on </p>
+
+<ul>
+<li>Go to "<em>Your profile</em>"<br>
+<img src="yourprofile-img.png" alt=""><br>
+</li>
+<li>Click "<em>Repositories</em>"<br>
+<img src="repositories-img.png" alt=""><br>
+</li>
+<li>Click "<em>New</em>"<br>
+<img src="new-img.png" alt=""><br>
+</li>
+<li>Type in the name of the repository 
+you want to make and press "<em>create</em>"<br>
+<img src="create-img.png" alt=""><br>
+</li>
+<li>Make sure SSH is selected and Copy and paste the code from
+<strong>"or push an existing repository from
+the command line."</strong><br>
+<img src="pushrepo-img.png" alt=""><br>
+it should look a like this:<br>
+<img src="pushrepocode.png" alt=""><br>
+<strong>Your repo is now set up!</strong><br>
+When using a repository, a programmer must
+remember to git init, in order to create  a 
+link between the remote repository and the local
+directory. After git has been initalized one 
+should constantly <code>add</code>,<code>commit</code>, and <code>push</code> in order
+to constantly update your remote repository as well as your
+local directory.</li>
+</ul>
+
+<hr>
+
+<h2>
+<a id="workflow--commands" class="anchor" href="#workflow--commands" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Workflow &amp; Commands</h2>
+
+<p>When using Git one must know all of the commands and what those 
+commands tell the computer to do. Every command does
+something different, and there is almost always a way to reverse what one did.  </p>
+
+<h5>
+<a id="git-commands" class="anchor" href="#git-commands" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Git Commands:</h5>
+
+<p>1.<em><code>git init</code></em>: creates a new repository and begins to track changes and modifications in files and folders.   </p>
+
+<div class="highlight highlight-source-shell"><pre>nievesalvin:<span class="pl-k">~</span>/workspace/practice $ git init
+Initialized empty Git repository <span class="pl-k">in</span> /home/ubuntu/workspace/practice/.git/</pre></div>
+
+<p>2.<em><code>git status</code></em>: allows programmer to see what files have been modified since the last commit.  </p>
+
+<div class="highlight highlight-source-shell"><pre>nievesalvin:<span class="pl-k">~</span>/workspace/github-tutorial (master) $ git status
+On branch master
+Your branch is up-to-date with <span class="pl-s"><span class="pl-pds">'</span>origin/master<span class="pl-pds">'</span></span>.
+Changes to be committed:
+  (use <span class="pl-s"><span class="pl-pds">"</span>git reset HEAD &lt;file&gt;...<span class="pl-pds">"</span></span> to unstage)
+
+        modified:   README.md
+        modified:   directions.md
+        new file:   git-log-img.png</pre></div>
+
+<p>3.<em><code>git commit &lt;filename&gt; -m "message"</code></em>:this is used in order to keep a record of the changes that a programmer has made to a file. When one uses
+git commit, it takes a "snapshot" and it sets a digital checkpoint, where 
+it shows, when your code last worked.  </p>
+
+<div class="highlight highlight-source-shell"><pre>nievesalvin:<span class="pl-k">~</span>/workspace/github-tutorial (master) $ git commit -m <span class="pl-s"><span class="pl-pds">"</span>add image to git log<span class="pl-pds">"</span></span>
+[master 8329a3c] add image to git log
+ 3 files changed, 21 insertions(+), 6 deletions(-)
+ create mode 100644 git-log-img.png</pre></div>
+
+<p>4.<em><code>git add</code></em>: adds files to the "stage" so that the programmer can use <code>git commit</code> in order to record changes. One 
+can not commit before adding the files to the "stage."
+One can add in two different ways. The first 
+involves using a '.' which simply means to add all files 
+to the 'stage,' and the other way to include the file name
+after <code>git add</code>.</p>
+
+<div class="highlight highlight-source-shell"><pre>nievesalvin:<span class="pl-k">~</span>/workspace/github-tutorial (master) $ git add <span class="pl-c1">.</span></pre></div>
+
+<p><em>Or</em></p>
+
+<div class="highlight highlight-source-shell"><pre>nievesalvin:<span class="pl-k">~</span>/workspace/github-tutorial (master) $ git add -filename-</pre></div>
+
+<p>5.<em><code>git push</code></em>: is used to send commits from the local directory to a remote 
+repository that lives on the cloud.  </p>
+
+<div class="highlight highlight-source-shell"><pre>nievesalvin:<span class="pl-k">~</span>/workspace/github-tutorial (master) $ git push
+Warning: Permanently added <span class="pl-s"><span class="pl-pds">'</span>github.com,192.30.253.112<span class="pl-pds">'</span></span> (RSA) to the list of known hosts.
+Counting objects: 5, <span class="pl-k">done</span>.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (5/5), <span class="pl-k">done</span>.
+Writing objects: 100% (5/5), 48.27 KiB <span class="pl-k">|</span> 0 bytes/s, <span class="pl-k">done</span>.
+Total 5 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 <span class="pl-k">local</span> objects.
+To github.com:nievesalvin/github-tutorial.git
+   b0663d4..8329a3c  master -<span class="pl-k">&gt;</span> master</pre></div>
+
+<p>6.<em><code>git clone</code></em>: is used by programmers to copy files from a remote repository
+to a local one.  </p>
+
+<div class="highlight highlight-source-shell"><pre>nievesalvin:<span class="pl-k">~</span>/workspace/ $ git clone -repositoryurl-</pre></div>
+
+<p>7.<em><code>git diff</code></em>: is used so that a programmer can see what specific lines of 
+code have been changed in a file.</p>
+
+<div class="highlight highlight-source-shell"><pre>nievesalvin:<span class="pl-k">~</span>/workspace/github-tutorial (master) $ git diff
+diff --git a/README.md b/README.md
+index 7d064c2..2a1d90e 100644
+--- a/README.md
++++ b/README.md
+@@ -59,5 +59,5 @@ to a <span class="pl-k">local</span> one.
+ <span class="pl-s"><span class="pl-pds">`</span>git diff<span class="pl-pds">`</span></span>: is used so that a programmer can see what specific lines of 
+ code have been changed <span class="pl-k">in</span> a file.  
+ <span class="pl-s"><span class="pl-pds">`</span>git log<span class="pl-pds">`</span></span>: is used to see the number commits, author, message, and <span class="pl-k">time</span> 
+-stamp. In order to get out of git log one must simply press <span class="pl-s"><span class="pl-pds">'</span>q<span class="pl-pds">'</span></span>
++stamp. In order to get out of git log one must simply press <span class="pl-s"><span class="pl-pds">'</span>q<span class="pl-pds">'</span></span>  
+ <span class="pl-k">!</span>[](git-log-img.png)
+<span class="pl-cce">\ </span>No newline at end of file</pre></div>
+
+<p>8.<em><code>git log</code></em>: is used to see the number commits, author, message, and time 
+stamp. In order to get out of git log one must simply press 'q'  </p>
+
+<div class="highlight highlight-source-shell"><pre>nievesalvin:<span class="pl-k">~</span>/workspace/github-tutorial (master) $ git log
+commit b0663d40a55bb4f2c75dc90ed9292f59a1b9809f
+Author: nievesalvin <span class="pl-k">&lt;</span>alvinn4392@hstat.org<span class="pl-k">&gt;</span>
+Date:   Fri Oct 21 16:02:30 2016 +0000
+
+    add image</pre></div>
+
+<p>9.<em><code>git pull</code></em>: is used to pull commands down 
+from a repository when you have accepted someone 
+elses pull request.</p>
+
+<h4>
+<a id="command-line-commands" class="anchor" href="#command-line-commands" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Command Line Commands</h4>
+
+<ul>
+<li>
+<em>ls</em>: is short for list, and list all of the files in a directory<br>
+<img src="ls-img.png" alt="">
+</li>
+<li>
+<em>cd -directoryname-</em>: cd is short for change directory and essentially it is used to 
+transfer a programmer from one folder to the next.<br>
+<img src="cd-img.png" alt=""><br>
+</li>
+<li>
+<em>touch -filename-</em>: touch allows the programmer to create a new file<br>
+<img src="touch-img.png" alt="">
+</li>
+<li>
+<em>mkdir -directoryname</em>: used to make a new directory<br>
+<img src="mkdir-img.png" alt=""><br>
+</li>
+<li>
+<em>rm</em>: can be used by itself, as <code>rm -rf</code>, or <code>rmdir</code> in order to delete
+files or directories with or without force.<br>
+<img src="rm-img.png" alt=""><br>
+<img src="rmrf-img.png" alt=""><br>
+</li>
+</ul>
+
+<h2>
+<a id="error-handling" class="anchor" href="#error-handling" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Error Handling</h2>
+
+<p>When using git one might forget to change into a
+directory before doing <code>git init</code>, which would 
+leave you with the workspace initalized.<br>
+<strong>Error</strong>: <img src="initerror.png" alt=""><br>
+<strong>Correction</strong>: <img src="initcorrection.png" alt=""><br>
+With this error, it is best to use <code>ls</code> to see
+where the <code>.git</code> is, and then use <code>rm -rf .git</code>.<br>
+<em>Breakdown</em>:
+<code>rm</code>: stands for remove<br>
+<code>-rf</code>: stands for 'repeat' with 'force' hence the 
+'rf'<br>
+<code>.git</code>: stands for the file that is created when
+git init is entered.  </p>
+
+<p>A programmer can also remove a repository in both
+a remote or local location. And it does not matter
+which you remove first.<br>
+<em>Removing a local directory</em>:  </p>
+
+<ul>
+<li>The first way of removing a local directory is 
+to do.<br>
+<img src="rmdir-img.png" alt=""><br>
+*The second way of removing a local directory is 
+to do.<br>
+<img src="rmdirectoriesrf.png" alt=""><br>
+</li>
+</ul>
+
+<p><strong>In order to remove a remote repository, the 
+programmer must go to their <a href="www.github.com">github</a> account.</strong>  </p>
+
+<ul>
+<li>Click "Your profile"<br>
+<img src="yourprofile-img.png" alt=""><br>
+</li>
+<li>Click "repositories"<br>
+<img src="repositories-img.png" alt=""><br>
+</li>
+<li>Click on the repository you would like to select.<br>
+</li>
+<li>Click on "Settings"<br>
+<img src="reposetting.png" alt=""><br>
+</li>
+<li>Scroll down until you see "Danger zone and </li>
+<li>click Delete Repository"<br>
+<img src="deleterepo.png" alt=""><br>
+</li>
+</ul>
+
+<h2>
+<a id="collaboration" class="anchor" href="#collaboration" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Collaboration</h2>
+
+<p>Github is at the core of social coding and it does
+by allowing individuals to use others repositories
+as their own starting places in order to create 
+their own version or their own project. In order 
+to do this, a programmer has to 'fork' a persons 
+project and then 'clone' it. The concept of 
+forking, is to take someones remote repository
+and making a copy that can be edited by the 
+new programmer. The concept of Cloning is taking
+code from the repository that you forked and 
+copying it into the local directory so that 
+changes can be applied and 'pushed.'  </p>
+
+<h4>
+<a id="forking" class="anchor" href="#forking" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><em><strong>Forking</strong></em>:</h4>
+
+<ul>
+<li>Find someone elses repository that you would 
+like to use as your starting point, on Github.<br>
+</li>
+<li>Once you have found a repo, clicl on it and 
+press "fork"<br>
+<img src="fork-img.png" alt=""><br>
+</li>
+<li>After you fork it, Github automatically makes
+a repository under your account.<br>
+</li>
+</ul>
+
+<h4>
+<a id="cloning" class="anchor" href="#cloning" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><em><strong>Cloning</strong></em>:</h4>
+
+<ul>
+<li>Press "Clone or download"<br>
+<img src="clonedownload-img.png" alt=""><br>
+</li>
+<li>Once you have done this you should see this:<br>
+<img src="clonelink.png" alt=""><br>
+after press the keyboard and return to c9.<br>
+</li>
+<li>Return to the bash terminal and type<br>
+<code>git clone -url-</code><br>
+</li>
+<li>It should look like this:<br>
+<img src="gitclonelink.png" alt=""><br>
+</li>
+</ul>
+
+<p><strong>Congratulations you have forked and cloned a 
+repository!</strong>  </p>
+
+<h4>
+<a id="pull-request" class="anchor" href="#pull-request" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><em><strong>Pull Request</strong></em>:</h4>
+
+<p>Pull request, is basically asking a programmer 
+permission to change the code on the repository
+in which you copied the code from. Permission can 
+either be granted or denied.  </p>
+
+<ul>
+<li>The way to do this is to go to the repository that
+you forked and click on the "Pull request" button:<br>
+<img src="pullrequest.png" alt=""><br>
+</li>
+<li>After this you will need to wait to have it 
+approved or denied.<br>
+</li>
+<li>If your request is accepted, the original </li>
+<li>programmer will then use <code>git pull</code> to copy the 
+changes that have been made to their remote 
+repository. </li>
+</ul>
+
+      <footer class="site-footer">
+        <span class="site-footer-owner"><a href="https://github.com/nievesalvin/github-tutorial">GitHub-tutorial</a> is maintained by <a href="https://github.com/nievesalvin">nievesalvin</a>.</span>
+
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+      </footer>
+
+    </section>
+
+  
+  </body>
+</html>
