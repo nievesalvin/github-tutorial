@@ -58,7 +58,7 @@ In order to set up a repository on
 * Click "_New_"  
 ![](new-img.png)  
 * Type in the name of the repository 
-you want to make and press "_create_"  
+you want to make and press "_Create_"  
 ![](create-img.png)  
 * Make sure SSH is selected and Copy and paste the code from
 **"or push an existing repository from
@@ -196,7 +196,7 @@ leave you with the workspace initalized.
 **Correction**: ![](initcorrection.png)  
 With this error, it is best to use `ls` to see
 where the `.git` is, and then use `rm -rf .git`.  
-_Breakdown_:
+**_Breakdown_**:  
 `rm`: stands for remove  
 `-rf`: stands for 'repeat' with 'force' hence the 
 'rf'  
@@ -206,11 +206,12 @@ git init is entered.
 A programmer can also remove a repository in both
 a remote or local location. And it does not matter
 which you remove first.  
-_Removing a local directory_:  
+
+**_Removing a local directory_**:  
 * The first way of removing a local directory is 
 to do.  
 ![](rmdir-img.png)  
-*The second way of removing a local directory is 
+* The second way of removing a local directory is 
 to do.   
 ![](rmdirectoriesrf.png)  
 
@@ -224,8 +225,8 @@ programmer must go to their [github](www.github.com) account.**
 * Click on the repository you would like to select.  
 * Click on "Settings"  
 ![](reposetting.png)  
-* Scroll down until you see "Danger zone and 
-* click Delete Repository"  
+* Scroll down until you see "Danger zone"
+* Click Delete Repository"  
 ![](deleterepo.png)  
 
 ## Collaboration  
@@ -245,7 +246,7 @@ changes can be applied and 'pushed.'
 #### _**Forking**_:  
 * Find someone elses repository that you would 
 like to use as your starting point, on Github.  
-* Once you have found a repo, clicl on it and 
+* Once you have found a repo, click on it and 
 press "fork"  
 ![](fork-img.png)  
 * After you fork it, Github automatically makes
